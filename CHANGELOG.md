@@ -3,6 +3,40 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [13.0.0](https://github.com/material-components/material-components-web/compare/v12.0.0...v13.0.0) (2021-08-05)
+
+
+### Bug Fixes
+
+* **button:** remove rem/em transformers from typography theme-styles ([a395972](https://github.com/material-components/material-components-web/commit/a395972cfaf2260da9f50875a8fe772cc3c69d83))
+* **elevation:** reduce warnings when not providing elevation tokens ([adb9f1a](https://github.com/material-components/material-components-web/commit/adb9f1ad8c85e016bbe714d9b8f2d7d28e610f91))
+* **switch:** distribute correct css ([#7292](https://github.com/material-components/material-components-web/issues/7292)) ([7b6bcb8](https://github.com/material-components/material-components-web/commit/7b6bcb85874e81f33956d1ec544aedcdc882ffed))
+* **switch:** elevation theme custom properties not working ([2865629](https://github.com/material-components/material-components-web/commit/28656298a9c01bd585fdb995be7aa96d3c3395e7))
+* **tooltip:** Adjust tooltip `focusout` handler. Ensures that interactive tooltips remain open when ChromeVox uses linear navigation to read non-focusable content inside the tooltip. ([7c96e6b](https://github.com/material-components/material-components-web/commit/7c96e6b98a25839d249e1d56478e919564b5ff07))
+
+
+### Code Refactoring
+
+* **fab:** Deprecate legacy Fab theme mixins ([83bdd02](https://github.com/material-components/material-components-web/commit/83bdd022246c1699de71346d5c162e1ded5a0836))
+
+
+### Features
+
+* **button:** add custom props to outlined button theme-styles ([bf405d2](https://github.com/material-components/material-components-web/commit/bf405d22ae54eef77bbe437228540900aad2f0e0))
+* **button:** add custom props to text button theme-styles ([3dd6110](https://github.com/material-components/material-components-web/commit/3dd61109132cf17b5a92a941ecc0f03b0a1cc8d5))
+* **button:** emit custom properties fill button theme-styles ([a80c8b2](https://github.com/material-components/material-components-web/commit/a80c8b2c263b4f69a9df57e9837f7cb4ca438428))
+
+
+### BREAKING CHANGES
+
+* **fab:** Renamed Fab's mixins to deprecate legacy theme mixins.
+
+PiperOrigin-RevId: 387378201
+
+
+
+
+
 # [12.0.0](https://github.com/material-components/material-components-web/compare/v11.0.0...v12.0.0) (2021-07-27)
 
 
